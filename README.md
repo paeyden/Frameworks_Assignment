@@ -58,3 +58,92 @@ Replace `package_name` with the actual package or entry point.
 
 ## License
 Specify a license (e.g., MIT) in a LICENSE file.
+
+# Frameworks_Assignment — PLP Academy
+
+Short README for the Frameworks Assignment (Python).
+
+## Project overview
+This repository contains the Frameworks Assignment for PLP Academy. Implement and demonstrate the required functionality using the chosen Python framework(s). Keep code modular, documented, and covered by tests.
+
+## Prerequisites
+- Python 3.8+ (adjust if assignment specifies a different version)
+- Git
+- Recommended: virtual environment tool (venv)
+
+## Quickstart (Windows)
+1. Clone the repository
+    ```
+    git clone <repository-url>
+    cd Frameworks_Assignment
+    ```
+2. Create and activate a virtual environment
+    ```
+    python -m venv .venv
+    .venv\Scripts\activate
+    ```
+3. Install dependencies
+    ```
+    pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+4. Run the application (replace the entrypoint as appropriate)
+    ```
+    python -m app
+    # or
+    python run.py
+    ```
+
+(Use `source .venv/bin/activate` on macOS/Linux.)
+
+## Running tests
+- Run unit tests:
+  ```
+  pytest
+  ```
+- Run a single test file:
+  ```
+  pytest tests/test_example.py
+  ```
+
+## Linting & formatting
+- Format with Black:
+  ```
+  black .
+  ```
+- Lint with Flake8:
+  ```
+  flake8 .
+  ```
+- Type check with MyPy (if used):
+  ```
+  mypy .
+  ```
+
+## Project structure (suggested)
+```
+Frameworks_Assignment/
+├─ app/                 # application package
+│  ├─ __init__.py
+│  ├─ main.py
+│  └─ ...
+├─ tests/               # unit/integration tests
+├─ requirements.txt
+├─ run.py               # optional entrypoint
+└─ README.md
+```
+
+## Assignment checklist
+- [ ] Implement required features
+- [ ] Add unit tests covering core behavior
+- [ ] Add README usage examples and any design notes
+- [ ] Ensure code style and static checks pass
+
+## Submission
+- Push your final branch to the remote repository.
+- Include any special instructions for the reviewer in this README under "Usage" or "Notes".
+
+## Notes / TODO
+- Replace placeholder commands and entrypoints with actual scripts for this assignment.
+- Add more detailed usage examples and API docs when implementation is complete.
+
