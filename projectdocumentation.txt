@@ -1,0 +1,8 @@
+## Findings
+- The number of publications increased sharply in 2020 due to the COVID-19 pandemic.
+- Certain journals contributed the most to pandemic research.
+- Common words in paper titles include “covid”, “infection”, “virus”, and “disease”.
+
+## Reflection
+I learned how to use pandas for data cleaning, matplotlib/seaborn for visualization, and Streamlit for interactive data apps.  
+Handling large CSV files and cleaning missing data were challenging, but this improved my data analysis skills.
