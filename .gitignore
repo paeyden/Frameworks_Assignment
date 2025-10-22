@@ -1,0 +1,4 @@
+venv
+.vscode
+metadata.csv
+__pycache__/
